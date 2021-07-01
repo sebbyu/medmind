@@ -1,0 +1,26 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  width: 100vw;
+  .nav_bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    height: 80px;
+    .menu_bar {
+      max-width: 500px;
+      #menu {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        margin: 10px;
+        font-size: 15px;
+        #element {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
