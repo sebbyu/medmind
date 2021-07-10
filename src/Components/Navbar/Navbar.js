@@ -2,7 +2,7 @@ import './Navbar.scss';
 
 const Navbar = () => {
   return (
-    <div className="main">
+    <div className="navbar">
       <div></div>
       <div className="nav_bar">
         <div className="fas fa-dna"> MedMind</div>
