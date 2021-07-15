@@ -1,23 +1,20 @@
 import './DiagComponent.scss';
-import lung_image from './../../../../assets/lung_image.png';
 
-const DiagComponent = () => {
+const DiagComponent = (props) => {
   return (
     <div className="diagcomponent">
       <div className="diagcomponent container">
         <div className="container image">
-          <img id="image" src={lung_image} alt="lung" />
+          <img id="image" src={props.side_image} alt="404" />
         </div>
         <div className="explanation">
-          <h2>AI for Pneumonia</h2>
+          <h2>{props.title}</h2>
+          <hr />
           <p>
-            It is able to detect pneumonia on CT scans in seconds
-           and has a triage function for early intervention.
+            {props.explanation[0]}
           </p>
           <p>
-            It can also differentiate pneumonia from virus, facilitating
-            automated disease progression evaluation for fast and easy
-            management.
+            {props.explanation[1]}
           </p>
         </div>
       </div>

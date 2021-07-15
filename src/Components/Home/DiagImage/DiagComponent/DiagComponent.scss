@@ -4,17 +4,26 @@
     grid-template-columns: 1fr 1fr;
     .image {
       #image {
-        height: 250px;
-        width: 500px;    
+        height: 200px;
+        width: 200px;
+        opacity: 0.8;    
       } 
     }
     .explanation {
       h2 {
         color: indigo;
       }
+      hr {
+        background-color: lightgray;
+        height: 1px;
+        width: 300px;
+        position: relative;
+        left: -80%;
+      }
       p {
-        font-size: 15px;
-        width: 350px;
+        font-size: 16px;
+        width: 330px;
+        text-align: left;
       }
     }
   }
