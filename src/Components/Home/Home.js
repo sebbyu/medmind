@@ -1,4 +1,5 @@
 import './Home.scss';
+import DiagImage from './DiagImage/DiagImage';
 
 const Home = () => {
   return (
@@ -12,6 +13,9 @@ const Home = () => {
             <li id="element">DEEP GENOMICS</li>
           </ul>
         </div>
+      </div>
+      <div>
+        <DiagImage />
       </div>
     </div>
   );

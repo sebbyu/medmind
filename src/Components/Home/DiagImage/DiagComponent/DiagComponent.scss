@@ -1,0 +1,21 @@
+.diagcomponent {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .image {
+      #image {
+        height: 250px;
+        width: 500px;    
+      } 
+    }
+    .explanation {
+      h2 {
+        color: indigo;
+      }
+      p {
+        font-size: 15px;
+        width: 350px;
+      }
+    }
+  }
+}
