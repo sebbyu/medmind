@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="navbar">
       <div></div>
       <div className="nav_bar">
-        <div className="fas fa-dna"> MedMind</div>
+        <div id="logo"><div className="fas fa-dna" id="logo_title"> MedMind</div></div>
         <nav className="menu_bar">
           <ul id="menu">
             <li id="element"><span>About</span></li>
@@ -14,7 +14,8 @@ const Navbar = () => {
           </ul>
         </nav>
       </div>
-      <div></div>
+      <div>
+      </div>
     </div>
   )
 }

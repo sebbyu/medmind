@@ -9,14 +9,14 @@ function App() {
         <div className="navbar">
           <Navbar />
         </div>
-        <div className="main">
-          <Home />
-        </div>
-        <div>
-
-        </div>
+        <span className="title">
+          While the site is under construction, please visit my
+          <a href="https://gitlab.com/sebbyu/Chest_X-ray_Pneumonia_Classification">&nbsp;gitlab&nbsp;</a> for pneumonia classification.
+        </span>
       </div>
-
+      <div className="main">
+        <Home />
+      </div>
     </div>
   );
 }

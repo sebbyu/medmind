@@ -3,12 +3,17 @@ import './Home.scss';
 const Home = () => {
   return (
     <div className="home">
-      <h2 className="title">
-        While the site is under construction, please visit my
-        <a href="https://gitlab.com/sebbyu/Chest_X-ray_Pneumonia_Classification"> gitlab</a> for pneumonia classification.
-      </h2>
+      <div className="home top">
+        <h1 id="title">OUR APPLICATIONS</h1>
+        <div className="home list">
+          <ul id="list">
+            <li id="element">DIAGNOSTIC IMAGING</li>
+            <li id="element">CDSS SYSTEM</li>
+            <li id="element">DEEP GENOMICS</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    
   );
 }
 

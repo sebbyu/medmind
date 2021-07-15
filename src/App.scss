@@ -1,10 +1,14 @@
 .app {
   .frame {
-    height: 700px;
+    height: 650px;
     background: linear-gradient(rgba(0,0,0,0.5),(rgba(0,0,0,0.7))), url('https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png') repeat;
-  }
-  .main {
-    height: 500px;
-    width: 100vw;
+    .title {
+      color: white;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 30%;
+      font-size: 30px;
+    }
   }
 }

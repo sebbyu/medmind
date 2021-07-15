@@ -9,6 +9,16 @@
     color: white;
     font-size: 30px;
     height: 80px;
+    #logo {
+      display: flex;
+      #logo_title {
+        cursor: pointer;
+        transition: 0.1s ease;
+        &:hover {
+          color: purple;
+        }
+      }
+    }
     .menu_bar {
       max-width: 500px;
       #menu {
@@ -19,6 +29,9 @@
         font-size: 15px;
         #element {
           cursor: pointer;
+          &:hover {
+            border-bottom: 2px solid white;
+          }
         }
       }
     }
