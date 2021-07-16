@@ -28,6 +28,7 @@ const DiagImage = () => {
             side_image={lung_image}
             title="AI for Pneumonia"
             explanation={paras.lung}
+            position="left"
           />
         </div>
         <div className="container dementia">
@@ -35,6 +36,7 @@ const DiagImage = () => {
             side_image={brain_image}
             title="AI for Dementia"
             explanation={paras.brain}
+            position="right"
           />
         </div>
       </div>

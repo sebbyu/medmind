@@ -8,6 +8,7 @@ const Navbar = () => {
         <div id="logo"><div className="fas fa-dna" id="logo_title"> MedMind</div></div>
         <nav className="menu_bar">
           <ul id="menu">
+            <li id="element"><span>Home</span></li>
             <li id="element"><span>About</span></li>
             <li id="element"><span>Product</span></li>
             <li id="element"><span>Resource</span></li>
