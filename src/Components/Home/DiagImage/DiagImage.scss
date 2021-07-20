@@ -1,9 +1,9 @@
-.DiagImage {
-  .container {
-    .pneumonia {
+.diagimage-main {
+  &-container {
+    &--pneumonia {
       margin: 80px;
     }
-    .dementia {
+    &--dementia {
       margin: 80px;
     }
   }

@@ -3,10 +3,10 @@ import DiagImage from './DiagImage/DiagImage';
 
 const Home = () => {
   return (
-    <div className="home">
-      <div className="home top">
+    <div className="home-main">
+      <div className="home-main--top">
         <h1 id="title">OUR APPLICATIONS</h1>
-        <div className="home list">
+        <div className="home-main--top-list">
           <ul id="list">
             <li id="element">DIAGNOSTIC IMAGING</li>
             <li id="element">CDSS SYSTEM</li>
@@ -14,7 +14,7 @@ const Home = () => {
           </ul>
         </div>
       </div>
-      <div>
+      <div className="home-main--bottom">
         <DiagImage />
       </div>
     </div>

@@ -21,9 +21,9 @@ const DiagImage = () => {
     ]
   }
   return (
-    <div className="DiagImage">
-      <div className="DiagImage container">
-        <div className="container pneumonia">
+    <div className="diagimage-main">
+      <div className="diagimage-main-container">
+        <div className="diagimage-main-container--pneumonia">
           <DiagComponent 
             side_image={lung_image}
             title="AI for Pneumonia"
@@ -31,7 +31,7 @@ const DiagImage = () => {
             position="left"
           />
         </div>
-        <div className="container dementia">
+        <div className="diagimage-main-container--dementia">
           <DiagComponent
             side_image={brain_image}
             title="AI for Dementia"
